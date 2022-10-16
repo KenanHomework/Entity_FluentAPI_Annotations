@@ -15,7 +15,7 @@ namespace Entity_FluentAPI_Annotations
 
             public AppContext()
             {
-                //Database.EnsureDeleted(); 
+                Database.EnsureDeleted();
                 Database.EnsureCreated();
             }
 
